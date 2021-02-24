@@ -8,11 +8,12 @@ public class CheckPassFail {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Ievadi skaitli no 1 līdz 100 ");
         int num = scanner.nextInt();
-            if (num >= 50) {
-                System.out.println("PASS");
-            }else {
-                    System.out.println("FAIL");
-                }
-            System.out.println("DONE");
+        scanner.close();
+        if (num >= 50) {
+            System.out.println("PASS");
+        } else {
+            System.out.println("FAIL");
+        }
+        System.out.println("DONE");
     }
 }
