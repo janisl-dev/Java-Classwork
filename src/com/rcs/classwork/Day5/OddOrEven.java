@@ -10,9 +10,9 @@ public class OddOrEven {
         int num = scanner.nextInt();
         scanner.close();
         if (num % 2 == 0) {
-            System.out.println("pāra skaitlis");
+            System.out.println("Pāra skaitlis");
         } else {
-            System.out.println("nepāra skaitlis");
+            System.out.println("Nepāra skaitlis");
         }
     }
 }
