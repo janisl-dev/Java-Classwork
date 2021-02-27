@@ -14,6 +14,7 @@ public class Calculator {
         System.out.print("Ievadiet darbību (+, -,*,/): ");
         String action = scanner.nextLine();
         System.out.println(action);
+        scanner.close();
 
         switch(action) {
             case "+":
