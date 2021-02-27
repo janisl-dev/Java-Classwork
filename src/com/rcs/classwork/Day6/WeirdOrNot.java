@@ -11,7 +11,7 @@ public class WeirdOrNot {
         scanner.close();
         if ((x % 2 != 0) || (x >= 6 && x <= 20)) {
             System.out.println("Dīvaini...");
-        } else if {
+        } else {
             System.out.println("Nav dīvaini...");
         }
     }
