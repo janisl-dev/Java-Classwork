@@ -12,22 +12,20 @@ public class Calculator {
         scanner.nextLine();
 
         System.out.print("Ievadiet darbību (+, -,*,/): ");
-        String action = scanner.nextLine();
-        System.out.println(action);
+        String action = scanner.next();
         scanner.close();
-
         switch(action) {
             case "+":
-                System.out.println(a + b);
+                System.out.printf("%.2f + %.2f = %.2f", a, b, a + b);
                 break;
             case "-":
-                System.out.println(a - b);
+                System.out.printf("%.2f - %.2f = %.2f", a, b, a - b);
                 break;
             case "*":
-                System.out.println(a * b);
+                System.out.printf("%.2f * %.2f = %.2f", a, b, a * b);
                 break;
             case "/":
-                System.out.println(a / b);
+                System.out.printf("%.2f  %.2f = %.2f", a, b, a / b);
                 break;
             default:
                 System.out.println("Nepareizs formāts");
